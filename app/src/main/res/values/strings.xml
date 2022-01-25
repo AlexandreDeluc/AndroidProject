@@ -2,6 +2,12 @@
     <string name="app_name">AndroidERestaurant</string>
     <string name="starterbtn">Entrées</string>
     <string name="dishbtn">Plats</string>
-    <string name="dessertbtn">Entrées</string>
+    <string name="dessertbtn">Desserts</string>
+    <string name="startermsg">Starter pressed</string>
+    <string name="dishmsg">Dish pressed</string>
+    <string name="dessertmsg">Dessert pressed</string>
+
+    <string name="categoryTitle"></string>
+
 
 </resources>

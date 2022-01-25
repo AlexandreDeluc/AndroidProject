@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_category.xml" value="0.152" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_entrees.xml" value="0.14492753623188406" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_main.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -14,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>
