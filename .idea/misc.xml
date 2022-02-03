@@ -3,12 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_category.xml" value="0.152" />
-        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable-v24/moins.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable-v24/plus.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_basket.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_category.xml" value="0.2" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_detail.xml" value="0.176" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_entrees.xml" value="0.14492753623188406" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_main.xml" value="0.2" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_basket.xml" value="0.264" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/cell_main.xml" value="0.152" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/fragment_photo.xml" value="0.16" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/menu_basket.xml" value="0.536" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/layout/menu_layout.xml" value="0.1" />
+        <entry key="..\:/Users/alexandre.deluc/AndroidStudioProjects/AndroidERestaurant/app/src/main/res/menu/menu.xml" value="0.4" />
       </map>
     </option>
   </component>

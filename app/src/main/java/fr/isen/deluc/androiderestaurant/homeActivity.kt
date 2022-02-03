@@ -4,10 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import android.widget.Toast
 import fr.isen.deluc.androiderestaurant.databinding.ActivityHomeBinding
 
-class homeActivity : AppCompatActivity() {
+class homeActivity : BaseActivity() {
 
     lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,9 +32,9 @@ class homeActivity : AppCompatActivity() {
         }
     }
     private fun showCategory(item: LunchType){
-            val intent = Intent(this@homeActivity, CategoryActivity::class.java)
-            intent.putExtra(homeActivity.CategoryType, item)
-            startActivity(intent)
+        val intent = Intent(this@homeActivity, CategoryActivity::class.java)
+        intent.putExtra(homeActivity.CategoryType, item)
+        startActivity(intent)
 
     }
 

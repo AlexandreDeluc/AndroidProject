@@ -9,5 +9,11 @@
 
     <string name="categoryTitle"></string>
 
+    <string name="moinsBtn">-</string>
+    <string name="plusBtn">+</string>
+
+    <string name="total">total</string>
+    <string name="panier">panier</string>
+
 
 </resources>
