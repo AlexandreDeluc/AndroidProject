@@ -35,6 +35,7 @@ class ItemAdapter(val items: List<Plat>, val itemClickListener: (Plat)->Unit): R
         viewHolder.price.text = "${item.prices.first().prices} €"
         Picasso.get()
             .load(item.getUrl())
+            .placeholder(R.drawable.logo)
             .into(viewHolder.img)
         viewHolder.layout.setOnClickListener{
             itemClickListener.invoke(item)

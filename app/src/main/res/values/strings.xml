@@ -14,6 +14,7 @@
 
     <string name="total">total</string>
     <string name="panier">panier</string>
+    <string name="quantity">quantity</string>
 
 
 </resources>
