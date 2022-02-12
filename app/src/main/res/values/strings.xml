@@ -16,5 +16,18 @@
     <string name="panier">panier</string>
     <string name="quantity">quantity</string>
 
+    <string name="commandBtn">Passer commande</string>
+
+    <string name="title">Création de votre compte</string>
+    <string name="prenom">Prénom</string>
+    <string name="nom">Nom</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de Passe</string>
+    <string name="signUpBtn">Créer votre compte</string>
+    <string name="logInBtn">Se connecter</string>
+    <string name="noAccount">Je n\'ai pas de compte</string>
+
+    <string name="invalidForm">Veuillez remplir tous les champs</string>
+
 
 </resources>

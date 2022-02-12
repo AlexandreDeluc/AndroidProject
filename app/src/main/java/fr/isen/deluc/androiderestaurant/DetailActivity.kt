@@ -33,7 +33,7 @@ class DetailActivity : BaseActivity() {
     private fun setUpContent(){
         val currentDish = intent.getSerializableExtra(CategoryActivity.selectedItem) as? Plat
 
-        binding.title.text = currentDish?.name
+        binding.titleDetail.text = currentDish?.name
 
         binding.ingredients.text = currentDish?.ingredients?.map { it.name }?.joinToString (",\n")
 

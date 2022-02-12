@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#278E2B"
+    android:backgroundTint="@color/mygreen"
     tools:context=".homeActivity">
 
     <TextView
@@ -65,7 +65,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#1A671D"
+        android:backgroundTint="@color/mygreen"
         android:text="@string/starterbtn"
         app:layout_constraintBottom_toTopOf="@+id/dishbtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,7 +78,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="100dp"
-        android:backgroundTint="#1A671D"
+        android:backgroundTint="@color/mygreen"
         android:text="@string/dessertbtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

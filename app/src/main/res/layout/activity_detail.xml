@@ -7,13 +7,17 @@
     tools:context=".DetailActivity">
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titleDetail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
         android:text="TextView"
+        android:textColor="@color/mygreen"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,17 +28,20 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/title"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/titleDetail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/title"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
+        app:layout_constraintStart_toStartOf="@+id/titleDetail"
+        app:layout_constraintTop_toBottomOf="@+id/titleDetail" />
 
     <Button
         android:id="@+id/shopBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/mygreen"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
+            android:backgroundTint="@color/mygreen"
             android:text="@string/plusBtn"
             android:textColor="@color/black"
             android:textSize="24dp" />
