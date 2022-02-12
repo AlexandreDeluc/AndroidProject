@@ -28,6 +28,7 @@
     <string name="noAccount">Je n\'ai pas de compte</string>
 
     <string name="invalidForm">Veuillez remplir tous les champs</string>
+    <string name="invalidLogin">Email ou Mot de passe invalide</string>
 
 
 </resources>

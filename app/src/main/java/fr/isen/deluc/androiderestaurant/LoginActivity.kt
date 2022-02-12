@@ -105,7 +105,12 @@ class LoginActivity : AppCompatActivity(), LoginActivityFragmentInteraction {
             parameters,
             {
                 val userResult = GsonBuilder().create().fromJson(it.toString(), UserResult::class.java)
-                saveUser(userResult.data)
+                if(userResult.data != null){
+                    saveUser(userResult.data)
+                }
+                else{
+                    Toast.makeText(this,getString(R.string.invalidLogin), Toast.LENGTH_LONG).show()
+                }
             },
             {
                 Log.d("request", it.message ?: "erreur")
