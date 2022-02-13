@@ -29,6 +29,7 @@
 
     <string name="invalidForm">Veuillez remplir tous les champs</string>
     <string name="invalidLogin">Email ou Mot de passe invalide</string>
+    <string name="paniertext">Votre Panier</string>
 
 
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context=".DetailActivity">
 
     <TextView
@@ -16,8 +17,8 @@
         android:gravity="center_horizontal"
         android:text="TextView"
         android:textColor="@color/mygreen"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +31,7 @@
         android:layout_marginTop="24dp"
         android:gravity="center_horizontal"
         android:text="TextView"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/titleDetail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/titleDetail"
@@ -66,7 +67,7 @@
             android:backgroundTint="@android:color/transparent"
             android:text="@string/moinsBtn"
             android:textColor="@color/black"
-            android:textSize="24dp"
+            android:textSize="34sp"
             app:iconTint="@android:color/transparent"
             app:strokeColor="@android:color/transparent" />
 
@@ -75,7 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/plusBtn"
@@ -86,7 +88,7 @@
             android:backgroundTint="@color/mygreen"
             android:text="@string/plusBtn"
             android:textColor="@color/black"
-            android:textSize="24dp" />
+            android:textSize="34sp" />
     </LinearLayout>
 
     <androidx.viewpager2.widget.ViewPager2
